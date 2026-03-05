@@ -1,0 +1,21 @@
+Corpus: corpus/arxiv_ml
+--- verify_corpus.py ---
+corpus_dir=corpus/arxiv_ml
+meta_path=corpus/arxiv_ml/metadata.jsonl
+text_dir=corpus/arxiv_ml/text
+metadata_lines_total=30000
+checked_first=300
+bad_json_firstN=0
+missing_required_fields_firstN=0
+missing_txt_firstN=0
+too_small_txt_firstN(<50B)=0
+VERIFY_OK
+--- compute_stats.py ---
+meta_lines=30000
+text_files=30000
+text_total_size_bytes=2269239300
+text_total_size_human=2.11 GB
+text_avg_size_bytes=75641.31
+text_min_size_bytes=8500
+text_max_size_bytes=950000
+OK

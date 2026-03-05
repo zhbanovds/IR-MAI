@@ -1,0 +1,14 @@
+lab8 boolean search test
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danilazhbanov/Desktop/IR_MAI/lab8/build
+[100%] Built target search
+--- query: deep AND learning ---
+3
+--- query: model OR deep ---
+1
+2
+3
+--- query: learning AND NOT model ---
+3
+OK

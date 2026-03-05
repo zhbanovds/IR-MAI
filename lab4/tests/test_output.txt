@@ -1,0 +1,27 @@
+lab4 stemming test
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danilazhbanov/Desktop/IR_MAI/lab4/build
+[ 66%] Building CXX object CMakeFiles/stem.dir/src/stem_main.cpp.o
+[ 66%] Building CXX object CMakeFiles/stem.dir/src/stemmer.cpp.o
+[100%] Linking CXX executable stem
+[100%] Built target stem
+stems_lines=11
+000001	organization
+000001	organiz
+000001	organ
+000001	process
+000001	process
+000001	processor
+000001	runn
+000001	run
+000001	happi
+000001	class
+000001	clas
+OK

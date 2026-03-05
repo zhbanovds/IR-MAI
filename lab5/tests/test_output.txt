@@ -1,0 +1,31 @@
+lab5 zipf test
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danilazhbanov/Desktop/IR_MAI/lab5/build
+[ 50%] Building CXX object CMakeFiles/zipf.dir/src/zipf_main.cpp.o
+[100%] Linking CXX executable zipf
+[100%] Built target zipf
+1	learning	4
+2	the	4
+3	model	3
+freq_lines=3
+zipf_lines=3
+--- top output ---
+1	learning	4
+2	the	4
+3	model	3
+--- freq.tsv (first 20) ---
+learning	4
+model	3
+the	4
+--- zipf.tsv (first 20) ---
+1	4
+2	4
+3	3
+OK

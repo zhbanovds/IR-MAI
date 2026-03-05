@@ -1,0 +1,20 @@
+lab3 tokenization test
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danilazhbanov/Desktop/IR_MAI/lab3/build
+[100%] Built target tokenize
+tokens_lines=13
+000001	hello
+000001	world
+000001	ml
+000001	2025
+000001	transformers
+000001	rag
+000001	tf
+000001	idf
+000002	numbers
+000002	123
+000002	45
+000002	mixedcasetoken
+000002	abcdef
+OK

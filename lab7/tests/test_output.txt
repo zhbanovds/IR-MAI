@@ -1,0 +1,16 @@
+lab7 indexer test
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/danilazhbanov/Desktop/IR_MAI/lab7/build
+[100%] Built target indexer
+total 24
+drwxr-xr-x@ 5 danilazhbanov  staff  160  5 мар 18:49 .
+drwxr-xr-x@ 4 danilazhbanov  staff  128  5 мар 18:49 ..
+-rw-r--r--@ 1 danilazhbanov  staff   26  5 мар 18:49 dict.tsv
+-rw-r--r--@ 1 danilazhbanov  staff   24  5 мар 18:49 offsets.bin
+-rw-r--r--@ 1 danilazhbanov  staff   40  5 мар 18:49 postings.bin
+--- dict.tsv (first 20) ---
+0	deep
+1	learning
+2	model
+OK

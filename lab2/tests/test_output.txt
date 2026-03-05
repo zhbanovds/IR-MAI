@@ -1,0 +1,30 @@
+Corpus: corpus/arxiv_ml
+--- lab2 pipeline.py --meta ---
+/path/to/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+
+Fetching metadata: 100%|██████████| 30000/30000 [00:00<?, ?it/s]
+Fetching metadata: 100%|██████████| 30000/30000 [00:00<?, ?it/s]
+Done. metadata lines: 30000
+Saved: corpus/arxiv_ml/metadata.jsonl
+$ /path/to/python /path/to/repo/lab1/scripts/01_fetch_meta_arxiv.py
+--- lab1 verify_corpus.py ---
+corpus_dir=corpus/arxiv_ml
+meta_path=corpus/arxiv_ml/metadata.jsonl
+text_dir=corpus/arxiv_ml/text
+metadata_lines_total=30000
+checked_first=300
+bad_json_firstN=0
+missing_required_fields_firstN=0
+missing_txt_firstN=0
+too_small_txt_firstN(<50B)=0
+VERIFY_OK
+--- lab1 compute_stats.py ---
+meta_lines=30000
+text_files=30000
+text_total_size_bytes=2269239300
+text_total_size_human=2.11 GB
+text_avg_size_bytes=75641.31
+text_min_size_bytes=8500
+text_max_size_bytes=950000
+OK

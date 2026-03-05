@@ -1,0 +1,24 @@
+# big corpora
+corpus/arxiv_ml/raw_pdf/
+corpus/arxiv_ml/text/
+
+# generated data
+data/tokens*.tsv
+data/stems*.tsv
+data/index_sample/
+data/index_full/
+
+# build dirs
+**/build/
+
+# temp test dirs
+lab7/tests/tmp/
+lab8/tests/tmp/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
